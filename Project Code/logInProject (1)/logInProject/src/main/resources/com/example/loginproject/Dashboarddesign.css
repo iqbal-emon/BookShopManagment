@@ -1,0 +1,26 @@
+#left{
+-fx-background-color:#fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+.button{
+-fx-background-color:#47503C;
+
+}
+.delete-btn{
+    -fx-background-color: #8c2c32;
+    -fx-background-radius: 4px;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 2px;
+    -fx-font-family: Tahoma;
+    -fx-border-color:#000;
+    -fx-border-radius: 2px;
+    -fx-border-width: .4px;
+}

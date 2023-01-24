@@ -1,0 +1,3 @@
+emon 10
+rahim 20
+kamal 30

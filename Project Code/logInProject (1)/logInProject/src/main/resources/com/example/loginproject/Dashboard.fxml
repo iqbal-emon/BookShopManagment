@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="344.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginproject.HelloController">
+   <children>
+      <AnchorPane layoutX="303.0" prefHeight="352.0" prefWidth="325.0" styleClass="button" stylesheets="@Dashboarddesign.css">
+         <children>
+            <TextField fx:id="first" layoutX="57.0" layoutY="145.0" prefHeight="26.0" prefWidth="169.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="57.0" layoutY="205.0" prefHeight="26.0" prefWidth="170.0" promptText="Password" />
+            <Button layoutX="106.0" layoutY="257.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="26.0" prefWidth="72.0" styleClass="delete-btn" text="Log in " />
+            <Label layoutX="12.0" layoutY="-7.0" prefHeight="90.0" prefWidth="186.0" text="Book Shop " textFill="#717521">
+               <font>
+                  <Font name="Bauhaus 93" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="53.0" prefHeight="62.0" prefWidth="250.0" text="Mangement System" textFill="#8653bd">
+               <font>
+                  <Font name="Bauhaus 93" size="29.0" />
+               </font>
+            </Label>
+
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" prefHeight="154.0" prefWidth="306.0">
+         <children>
+            <ImageView fitHeight="349.0" fitWidth="314.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="F:\logInProject (1)\logInProject\dkfk.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="177.0" fitWidth="314.0" layoutX="-11.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="F:\logInProject (1)\logInProject\wallpaperflare.com_wallpaper.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
